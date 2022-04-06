@@ -1,0 +1,68 @@
+* {
+	font-family: ＭＳ Ｐゴシック, arial;
+}
+
+
+body{
+	margin: 0;
+	background-color: #202811;
+}
+
+
+#cabecera {
+	background-color: #9D002B;
+	text-align: center;
+	padding: 15px;
+}
+
+
+.enlaces {
+	text-align: center;
+}
+
+
+.enlaces a {
+	display: inline-block;
+	font-size: 25px;
+	font-weight: bold;
+	border: solid 5px #D19628;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 20px;
+	text-decoration: none;
+	background-color: #9D002B;
+	color: white;
+	letter-spacing: 2px;
+}
+
+
+.enlaces a:hover {
+	background-color: #C76862;
+}
+
+h1 {
+	visibility: hidden;
+	margin: 0;
+}
+
+
+.trailer {
+	text-align: center;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+iframe {
+	border: solid 10px #D19628;
+	border-radius: 10px;
+}
+
+
+.footer {
+	clear: both;
+	text-align: center;
+	background-color: #437155;
+	margin: 100px 10px 10px 10px;
+	padding: 3px;
+	color: white;
+}

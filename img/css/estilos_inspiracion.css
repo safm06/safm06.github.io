@@ -1,0 +1,172 @@
+* {
+	font-family: ＭＳ Ｐゴシック, arial;
+}
+
+
+body{
+	margin: 0;
+	background-color: #FFFDF3;
+}
+
+.contenido {
+	width: 1350px;
+	margin: auto;
+}
+
+#cabecera {
+	background-color: #9D002B;
+	text-align: center;
+	padding: 15px;
+}
+
+
+.fondo {
+    background-image: url(../img/chihiro_1.jpg);
+	background-position: center;
+	height: 489px;
+	background-size: cover;
+}
+
+
+.enlaces {
+	text-align: center;
+}
+
+
+.enlaces a {
+	display: inline-block;
+	font-size: 25px;
+	font-weight: bold;
+	border: solid 5px #D19628;
+	border-radius: 10px;
+	padding: 10px;
+	margin-right: 20px;
+	margin-left: 20px;
+	text-decoration: none;
+	background-color: #9D002B;
+	margin-top: -30px;
+	color: white;
+	letter-spacing: 2px;
+}
+
+.enlaces a:hover {
+	background-color: #C76862;
+}
+
+.director {
+	margin-top: 20px;
+	margin-left: 40px;
+	position: relative;
+}
+
+.miyazaki {
+	float: right;
+	margin: 50px 60px 20px 20px;
+	width: 420px;
+	border: solid 5px #D19628;
+	border-radius: 10px;
+}
+
+.logo {
+	width: 360px;
+	border: solid 5px white;
+	border-radius: 10px;
+	position: absolute;
+	left: 700px;
+	top: 490px;
+}
+
+h1 {
+	margin-top: 70px;
+	color: #202811;
+	font-size: 58px;
+}
+
+.director p {
+	font-size: 23px;
+	line-height: 30px;
+	width: 680px;
+	text-align: justify;
+}
+
+hr {
+	clear: both;
+	border: none;
+	border-bottom: 2px solid #437155;
+	width: 129
+	0px;
+	margin: 20px auto;
+
+}
+
+.inspiracion {
+	margin-top: 40px;
+	margin-left: 40px;
+	margin-right: 60px;
+}
+
+.jiufen1 {
+	width: 600px;
+	margin-right: 30px;
+	margin-bottom: 20px;
+	float: left;
+	border: solid 5px #D19628;
+	border-radius: 10px;
+}
+
+.inspiracion h2 {
+	color: #202811;
+	font-size: 58px;
+}
+
+.inspiracion p {
+	font-size: 24px;
+	line-height: 30px;
+	text-align: justify;
+}
+
+blockquote {
+	font-size: 24px;
+	line-height: 30px;
+	text-align: justify;
+	font-style: italic;
+}
+
+address {
+	font-size: 24px;
+	line-height: 30px;
+	text-align: justify;
+	font-style: italic;
+}
+
+.yokai {
+	margin: 20px;
+	display: inline-block;
+	border: solid 5px #D19628;
+	border-radius: 10px;
+	position: relative;
+	bottom: 100px;
+}
+
+.jiufen2 {
+	position: relative;
+	margin: 20px;
+	width: 400px;
+	display: inline-block;
+	border: solid 5px #D19628;
+	border-radius: 10px;
+}
+
+p {
+	color: #6D6A55;
+}
+
+
+.footer {
+	clear: both;
+	text-align: center;
+	background-color: #437155;
+	margin: 50px 10px 10px 10px;
+	padding: 3px;
+	color: white;
+}

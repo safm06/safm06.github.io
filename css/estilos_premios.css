@@ -1,0 +1,110 @@
+* {
+	font-family: ＭＳ Ｐゴシック, arial;
+}
+
+
+body{
+	margin: 0;
+	background-color: #FFFDF3;
+}
+
+
+#cabecera {
+	background-color: #9D002B;
+	text-align: center;
+	padding: 15px;
+}
+
+
+.contenido {
+	width: 1150px;
+	margin: auto;
+
+}
+
+
+.fondo {
+    background-image: url(../img/mirada.jpg);
+	background-position: center;
+	height: 489px;
+	background-size: cover;
+}
+
+
+.enlaces {
+	text-align: center;
+}
+
+
+.enlaces a {
+	display: inline-block;
+	font-size: 25px;
+	font-weight: bold;
+	border: solid 5px #D19628;
+	border-radius: 10px;
+	padding: 10px;
+	margin-right: 20px;
+	margin-left: 20px;
+	text-decoration: none;
+	background-color: #9D002B;
+	margin-top: -30px;
+	color: white;
+	letter-spacing: 2px;
+}
+
+
+.enlaces a:hover {
+	background-color: #C76862;
+}
+
+
+h1 {
+	text-align: center;
+	font-size: 36px;
+	background-color: #C76862 ;
+	color: white;
+	padding: 10px;
+	border: solid 8px #D19628;
+	border-radius: 10px;
+	width: 900px;
+	margin: 40px auto;
+}
+
+
+h2 {
+	color: #202811;
+	font-size: 65px;
+	text-decoration: underline;
+}
+
+
+.contenido hr {
+	margin-top: -50px;
+	margin-bottom: 60px;
+	border: none;
+	border-bottom: 3px solid #437155;
+	width: 600px;
+	margin-left: 0px;
+}
+
+
+li {
+	font-size: 30px;
+	color: #8C886C;
+	margin-bottom: 20px;
+}
+
+
+span {
+	font-style: italic;
+}
+
+
+.footer {
+	clear: both;
+	text-align: center;
+	background-color: #437155;
+	margin: 80px 10px 10px 10px;
+	padding: 3px;
+	color: white;
+}
